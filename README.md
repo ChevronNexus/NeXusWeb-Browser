@@ -1,4 +1,3 @@
-================================================================================
    CHEVRON NEXUS SOFTWARE — NEXUSWEB V7.1.0 PRODUCTION RELEASE
    COMPLETE UPDATE & UPGRADE SPECIFICATION (INFO.TXT)
 ================================================================================
