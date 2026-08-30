@@ -1,170 +1,194 @@
-<div align="center">
+================================================================================
+   CHEVRON NEXUS SOFTWARE — NEXUSWEB V7.1.0 PRODUCTION RELEASE
+   COMPLETE UPDATE & UPGRADE SPECIFICATION (INFO.TXT)
+================================================================================
+Release Version : NeXusWeb v7.1.0 (Core Engine v7.1.1)
+Platform Support: Windows 10/11 (x64) & Linux (x64)
+Architecture    : Local-First Decentralized Web Infrastructure & Developer Browser
+Publisher       : Chevron Nexus Software (Authenticode Signed & RFC 3161 Timestamped)
+Website         : https://www.ChevronNexus.com
+Design Standard : Pure Vector Icon System (Lucide React) — Zero Emojis as UI Icons
+================================================================================
 
-# 🌐 NeXusWeb Browser (v6.5.0)
-### **Privacy-First Personal Web Infrastructure & Developer Browser**
-*Crafted by **Chevron Nexus Software** — [www.ChevronNexus.com](https://www.ChevronNexus.com)*
+--------------------------------------------------------------------------------
+1. UPGRADE UI & DESIGN — APPLICATION DESIGN UPGRADED
+--------------------------------------------------------------------------------
+• Pure Vector Iconography Standard:
+  - 100% elimination of emoji characters as UI icons across the entire browser.
+  - Replaced with precision SVG Lucide React vector icons with subtle theme color accents.
+• Redesigned Frosted Glass 3-Dot Menu:
+  - Deep glassmorphic blur shaders (backdrop-filter: blur(28px) saturate(190%)).
+  - Top Header with NeXusWeb branding and live Mode Indicator Pill (Normal, LAN, Strict, Dev, Private Den).
+  - 3-Tile Quick Action Grid: [+ New Tab] (Ctrl+T), [New Window] (Ctrl+N), [Private Den] (Ctrl+Shift+P).
+  - Card-Grouped Organization: Browsing & Tools, Page Operations & Zoom, Settings & Developer Tools.
+  - Ergonomic Zoom Control Capsule: [-] [100%] [+] [Fullscreen].
+  - Interactive Submenu Accordions: Smooth inline accordion expansion with rotating chevrons for Developer Tools, Help & About, Bookmarks, and History.
+  - Bounded Flexbox Scrolling: Engineered with 'flex: 1 1 auto; min-height: 0; overflow-y: auto;' and custom thin scrollbar for smooth scrolling on any screen resolution.
+  - High-Visibility Crimson Exit Card: One-click exit with 'Ctrl+Shift+Q'.
+• Dynamic Viewport & Side Drawer Scaling:
+  - Dual Split View: Run two webpages side-by-side with draggable center splitter (10% to 90%), percentage badge, and double-click 50/50 reset.
+  - Dynamic Drawers: Drag drawer left border (115px to 880px) while the live web viewport automatically resizes simultaneously with zero gap.
+• Unified Version Synchronization:
+  - Corrected window title in 'index.html' to 'NeXusWeb v7.1.0'.
+  - Updated Top TitleBar badge to 'v7.1.0' with pure vector Lucide icon.
+  - Updated Bottom StatusBar badge to 'NeXusWeb v7.1.0'.
+• Interactive Mode Information (i) Button:
+  - Made the (i) badge on the Network Mode pill interactive, launching the Help Center guide directly on click.
 
-[![Version](https://img.shields.io/badge/version-6.5.0-00d4ff.svg?style=flat-square)](https://github.com/ChevronNexus/NeXusWeb)
-[![Electron](https://img.shields.io/badge/Electron-28.3.3-47848F.svg?style=flat-square&logo=electron)](https://www.electronjs.org/)
-[![React](https://img.shields.io/badge/React-18.2.0-61DAFB.svg?style=flat-square&logo=react)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-5.1.4-646CFF.svg?style=flat-square&logo=vite)](https://vitejs.dev/)
-[![Platform](https://img.shields.io/badge/platform-Windows%20x64-0078D6.svg?style=flat-square&logo=windows)](https://microsoft.com/windows)
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
+--------------------------------------------------------------------------------
+2. REDESIGNED SETTINGS PAGE (SETTINGS PANEL) ACCORDING TO UI
+--------------------------------------------------------------------------------
+• Modern Frosted Glass Layout:
+  - Responsive two-column configuration with sidebar navigation and card container.
+  - Full theme adaptability using dynamic design tokens (var(--bg-base), var(--glass-bg-card), var(--glass-border), var(--text-primary), var(--text-secondary)).
+• Searchable Settings Omnibox:
+  - Real-time search filter bar to instantly locate any setting or configuration flag.
+• Categorized Sections:
+  - Privacy and Security
+  - Performance & Tab Suspender
+  - Appearance & Themes (8 Frosted Glass presets)
+  - Search Engine Manager
+  - NeXusApp & Localhost Engine
+  - On Startup Configuration
+  - Downloads & Acceleration (Speed Limiter, Dynamic Multi-Part, Folder Picker)
+  - Accessibility (Expanded)
+  - System (Expanded)
+  - Reset Settings & Data Purge
 
-<p align="center">
-  <b>NeXusWeb</b> is a powerful next-generation web browser engineered specifically for software engineers, developers, and privacy-conscious users. Combining multi-engine privacy modes, live HTTP request interception, native encrypted DNS/VPN tunneling, real-time split view, and local developer workspaces into a cohesive glassmorphic desktop environment.
-</p>
+--------------------------------------------------------------------------------
+3. REDESIGNED ABOUT PAGE (ABOUT PANEL) ACCORDING TO UI
+--------------------------------------------------------------------------------
+• High-Definition Glass Showcase:
+  - Dual Emblem Brand Identity: Chevron Nexus Emblem + NeXusWeb Emblem.
+  - Dynamic Version & Status Badges: 'v7.1.0 Stable' and verified production channels.
+  - Direct Links to official infrastructure portal: https://www.ChevronNexus.com.
+• Core Philosophy Cards:
+  - Local-First Architecture: Runs on local hardware and subnets, fully operational offline.
+  - True Privacy: End-to-end device security with zero telemetry or data harvesting.
+  - One-Time Buy Ownership: No subscriptions; perpetual major version license.
+• Complete Key Feature Highlights Matrix:
+  - Multi-Engine Network Modes (Normal, LAN, Strict, Dev).
+  - Private Den Ephemeral Sandbox (RAM isolation, 100% auto-wipe).
+  - Native High-Speed Privacy Tunnel & VPN Engine (Encrypted DoH, header stripping).
+  - Synchronized Dynamic Viewport Resizing (Split view and dynamic drawers).
+  - Developer Tools Suite (REST client, port scanner, terminal, inspector, notes).
+• In-Place Setup & Delta Upgrader Center:
+  - 1-Click launcher for standalone upgrade setup with data preservation.
 
-</div>
+--------------------------------------------------------------------------------
+4. DEDICATED HELP PAGE (HELP PANEL & SHORTCUTS HUB) ACCORDING TO UI
+--------------------------------------------------------------------------------
+• Interactive Searchable Help Hub:
+  - Live search bar to quickly query documentation, feature guides, and troubleshooting steps.
+• Comprehensive Topic Modules:
+  - Getting Started & Split View Guide: Multitasking, dual pane navigation, and tab management.
+  - Multi-Engine Network Modes Guide: When and how to switch between Normal, LAN, Strict, and Dev modes.
+  - Native VPN & Tunneling Guide: Regional node routing, DNS-over-HTTPS, and real-time latency ping testing.
+  - Developer Tools & Workbenches Guide: Using the REST API workbench, port manager daemon, and PTY terminal.
+  - Private Den Sandbox Guide: RAM-only isolated browsing and ephemeral data lifecycle.
+  - Complete Keyboard Shortcuts Matrix: Fast visual reference for all hotkeys (Ctrl+T, Ctrl+N, Ctrl+Shift+P, F12, F9, Ctrl+\, F1).
+  - FAQ & Troubleshooting: Network diagnostics, proxy troubleshooting, cache clearing, and dev tools access.
 
----
+--------------------------------------------------------------------------------
+5. UPGRADE SETTINGS — ADD FEATURES
+--------------------------------------------------------------------------------
+• Privacy & Security Upgrades:
+  - DNS-over-HTTPS (DoH) Provider Selector: Cloudflare (1.1.1.1), Quad9 (9.9.9.9), Google (8.8.8.8), AdGuard Privacy, and Custom URL templates.
+  - WebRTC Leak Shield: Strict non-proxied UDP blocking toggle to prevent real IP leaks.
+  - Canvas & Audio Fingerprint Randomizer: Injects non-deterministic noise to defeat tracker fingerprinting.
+  - Ad & Tracker Blocker Engine: Strict AdBlock, Balanced, or Developer Pass-through.
+  - Cookie Policy Manager: Block third-party cookies, allow session-only, or block all.
+  - HTTPS Auto-Upgrade: Automatically rewrite insecure HTTP requests to HTTPS.
+  - Granular Browsing Data Cleaner: Checkboxes for history, cache, cookies, downloads, and storage.
+• Search Engine Manager:
+  - Pre-configured privacy engines: DuckDuckGo (Default), Brave Search, Google, Bing, Startpage, Ecosia.
+  - Custom Search Engine configuration with URL query parameter templates.
+  - Omnibox Search Suggestions toggle.
+• Appearance & Themes:
+  - 8 Frosted Glass Theme Presets: Cyber Dark, Obsidian Dark, Obsidian Light, Emerald Matrix, Solar Amber, Synth Violet, Sakura Neon, Clean Light.
+  - Glass Blur Intensity Selector: Low, Medium, High / Ultra blur.
+  - Bookmarks Bar Display Mode: Always Show, New Tab Only, Never Show.
+• Startup & Tabs Configuration:
+  - Startup Action: Open New Tab Page, Restore Previous Session Tabs, Open Specific URL.
+  - Tab hover preview thumbnails toggle.
 
-## ✨ Key Feature Highlights
+--------------------------------------------------------------------------------
+6. ADD FEATURES IN ACCESSIBILITY (SETTINGS ACCESSIBILITY)
+--------------------------------------------------------------------------------
+• High-Contrast OLED Mode:
+  - Pure black backgrounds (#000000) with maximum contrast neon borders and high-visibility text.
+• Text Scaling & UI Zoom Slider:
+  - Dynamic scale slider ranging from 80% to 150% with live viewport application.
+• Dyslexic-Friendly Typography:
+  - Toggle to apply enhanced legibility fonts across UI and readability layers.
+• Reduce Motion & Glass Blur:
+  - Toggle to disable backdrop-filter blur shaders and slide-in animations for motion sensitivity or performance.
+• High-Visibility Neon Focus Rings:
+  - Prominent 2px neon cyan outline on all keyboard-focused interactive elements and inputs.
+• Color Vision / Daltonism Simulation Filters:
+  - Normal (Standard full color).
+  - Protanopia (Red-blind / Red-weak simulation filter).
+  - Deuteranopia (Green-blind / Green-weak simulation filter).
+  - Tritanopia (Blue-blind / Blue-yellow simulation filter).
+  - Monochrome (Pure Grayscale filter).
+• Screen Reader Optimization:
+  - Semantic ARIA landmarks, roles, and logical tab stop sequence.
 
-### 🛡️ Multi-Engine Network & Privacy Modes
-- **🛡️ Normal Mode**: High-speed browsing with built-in tracker & ad blocker, HTTPS auto-upgrades, and anti-fingerprinting shield.
-- **🌐 Localhost & LAN Mode**: Zero-delay routing for local developer subnets, internal microservices, and LAN services.
-- **🔒 Strict Privacy Mode**: Hardened sandbox that disables third-party cookies, blocks tracking telemetry, and prevents WebRTC IP leaks.
-- **⚡ Developer Mode**: Zero CORS restrictions for localhost API debugging, auto-detects active dev ports, and enables full developer tooling.
+--------------------------------------------------------------------------------
+7. NEW DOWNLOAD MANAGER (DM) — DYNAMIC MULTI-PART SEGMENTATION ENGINE
+--------------------------------------------------------------------------------
+• Dynamic Multi-Part Segmentation:
+  - Instead of pre-splitting a file into static segments before downloading, DM dynamically splits a file during the download process.
+  - If one connection finishes early or is faster than another, DM automatically splits the largest remaining unfinished segment in half and assigns it to the idle connection (Dynamic Work Stealing).
+• Connection Reuse (HTTP Keep-Alive):
+  - DM keeps TCP connections open rather than closing and re-authenticating for every segment, avoiding repeated handshakes and latency overhead.
+  - Uses persistent connection pooling (http.Agent & https.Agent with max sockets and 30-second keep-alive).
+• Resuming & Rebuilding (.nexusdownload Manifest):
+  - DM continuously writes progress state to disk. When paused or interrupted, it sends HTTP range requests (Range: bytes=start-end) to request only the missing chunks, stitching them into the complete file upon completion.
+• Speed Limiter (Bandwidth Throttle) in Settings:
+  - Option in Settings -> Downloads: Throttle bandwidth usage so active downloads do not interrupt streaming, browsing, or gaming.
+  - Presets: Unlimited (Max Speed), 500 KB/s (Ultra Low), 1 MB/s (Low), 2 MB/s (Balanced), 5 MB/s (High Speed), 10 MB/s (Turbo Cap).
+• Custom Download Path Picker:
+  - Built-in native folder selection dialog (dialog.showOpenDialog) to configure default download folders.
+• Max Concurrent Connections per File:
+  - Select between 4, 8 (Turbo — Recommended), or 16 parallel connections.
+• Redesigned Frosted Glass UI:
+  - Unified Glass Metric Strip: Translucent card showing live Active Tasks, Completed Files, and Total Volume.
+  - Floating Omnibox Search: Real-time filtering by filename, extension, or source domain.
+  - Segmented Control Tabs: All, Active, Completed, Cancelled with dynamic high-contrast theme styling.
+  - Multi-Part Segment Visualization Mini-Map: Live progress blocks inside active cards showing parallel chunk workers.
+  - Interactive Action Controls: Open File, Show in Folder, Pause, Resume, Cancel, Copy URL, Remove, and Clear Completed.
+  - "+ Add URL" Modal: Direct link downloader with configurable connections (4, 8, 16) and custom filenames.
 
-### 🕵️ Private Den Sandbox
-- Isolated in-memory ephemeral browser session (`partition: memory`).
-- Auto-wipes 100% of cookies, cache, local storage, indexedDB, and history on tab/window close.
-- WebRTC non-proxied UDP disabled by default to prevent real IP leaks.
+--------------------------------------------------------------------------------
+8. ADD FEATURES IN SETTINGS SYSTEM
+--------------------------------------------------------------------------------
+• Hardware Acceleration (GPU):
+  - Toggle GPU rasterization and WebGL hardware acceleration with restart confirmation.
+• Memory Saver & Inactive Tab Suspender:
+  - Configurable discard timeout: 15 minutes, 30 minutes, 1 hour, 2 hours, or Never.
+  - Whitelist domains to prevent tab suspension on critical dev apps and dashboards.
+• Background Server Watcher:
+  - Keep background localhost daemons and server watchers active on window minimize/close.
+• Port Scanner Daemon Configuration:
+  - Auto-scan interval: Every 5s, 10s, 30s, or Manual scan only.
+  - Scan port ranges: Standard Web (3000-8080) vs Comprehensive Full Dev (1000-65535).
+  - Toast notification toggle when new local developer servers are detected.
+• Sandbox Storage & Cache Breakdown:
+  - Live telemetry display of Local Storage, IndexedDB, and Cache disk usage.
+  - 1-Click Purge Cache & Storage button.
+• User Preferences Backup & Restore:
+  - Export user configuration, search engines, and settings to JSON.
+  - Import user configuration from JSON file.
+• Factory Reset Settings:
+  - Restore all settings to pristine factory defaults with double-confirmation dialog.
 
-### 🔒 Native High-Speed Privacy Tunnel & VPN Engine
-- Built-in local tunnel bridge (`127.0.0.1:49153`) supporting Encrypted DNS-over-HTTPS (DoH via Cloudflare & Quad9).
-- Strips privacy-invasive tracking headers (`X-Forwarded-For`, `Client-IP`, `True-Client-IP`).
-- Fast multi-region routing (`Direct`, `US 🇺🇸`, `NL 🇳🇱`, `SG 🇸🇬`, `UK 🇬🇧`, `DE 🇩🇪`) with live real-time latency ping testing.
-
-### ↔️ Synchronized Real-Time Dynamic Resizing
-- **Split View**: Run two websites, two apps, or a website + dashboard side-by-side with draggable center splitter (`10%` to `90%`), percentage badge, and double-click 50/50 reset.
-- **Side Drawers & ScratchPad**: Drag drawer left border (`115px / 3cm` to `880px`) while the live webpage viewport automatically scales simultaneously with zero gap.
-
-### 🎛️ Developer Tools & Workbenches
-- **⚡ REST & GraphQL API Workbench**: Native HTTP/HTTPS client with headers, JSON payload formatting, and `.env` variable interpolation.
-- **🔌 Port Manager & Localhost Scanner**: Background daemon auto-detects active dev servers (Vite, Next.js, Django, Flask, Express) with 1-click PID killer.
-- **🔍 Request Inspector**: Live HTTP network logger intercepting status codes, headers, and request duration.
-- **📝 ScratchPad & Developer Notes**: Multi-note markdown workspace with live preview, split view, code syntax highlighting, JSON beautifier, and export.
-- **💻 Integrated Terminal**: Multi-tab PTY terminal session powered by `@xterm/xterm` with persistent state.
-- **🧩 Chrome Web Extensions**: Install Chrome extensions directly from the Chrome Web Store or unpack local CRX extensions.
-
----
-
-## 🏗️ Repository Architecture
-
-```text
-NeXusWeb/
-├── .github/
-│   ├── workflows/
-│   │   └── build.yml               # GitHub Actions CI build workflow
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.yml          # Structured bug report template
-│   │   └── feature_request.yml     # Feature request template
-│   └── pull_request_template.md    # Pull request guideline template
-├── Stable V6.5.0/                  # Active Production Codebase (v6.5.0)
-│   ├── electron/                   # Electron Main Process & Native Node Modules
-│   │   ├── main.js                 # App lifecycle, window manager, BrowserView placement
-│   │   ├── preload.js              # Context-isolated secure IPC bridge (window.nexus)
-│   │   ├── vpnEngine.js            # Native High-Speed Privacy Tunnel & DoH Engine
-│   │   ├── networkFilter.js        # Dynamic webRequest interception & ad/tracker blocker
-│   │   ├── chromeExtensionManager.js # Chrome Web Store & MV2/MV3 Extension Loader
-│   │   ├── portScanner.js          # Localhost dev server detection & PID killer
-│   │   ├── terminalManager.js      # Node-pty terminal session manager
-│   │   ├── requestInspector.js     # Live HTTP/HTTPS traffic inspector
-│   │   ├── downloadManager.js      # Native file download controller
-│   │   └── storage.js              # Local persistence (Bookmarks, History, Notes, Settings)
-│   ├── src/                        # React 18 Glassmorphic Frontend
-│   │   ├── components/             # Modular React UI Components (36 Components)
-│   │   │   ├── TitleBar.jsx        # Frameless window controls & traffic lights
-│   │   │   ├── TabBar.jsx          # Draggable tab reordering & audio mute controls
-│   │   │   ├── AddressBar.jsx      # Omnibox, search suggestions, SSL shield, mode badge
-│   │   │   ├── ScratchPad.jsx      # Multi-note markdown notes & JSON formatter
-│   │   │   ├── PanelShell.jsx      # Resizable drawer shell with live IPC sync
-│   │   │   ├── SplitResizeBar.jsx  # Center draggable split view splitter
-│   │   │   ├── QuickToolsDrawer.jsx# Quick utilities, VPN switcher, IP tester
-│   │   │   ├── ApiWorkbench.jsx    # REST & GraphQL testing client
-│   │   │   ├── PortManager.jsx     # Active local port monitor
-│   │   │   ├── RequestInspector.jsx# Network logger
-│   │   │   └── Terminal.jsx        # Embedded xterm.js terminal drawer
-│   │   ├── assets/                 # Brand logos, icons, and visual assets
-│   │   ├── index.css               # Design system tokens, glassmorphism, animations
-│   │   ├── App.jsx                 # Root layout & global application state
-│   │   └── main.jsx                # React DOM entry point
-│   ├── scripts/                    # Build & Native Packaging Pipeline
-│   │   ├── buildSetup.js           # Multi-stage automated installer pipeline
-│   │   ├── SetupInstaller.cs       # Native C# WPF .NET Setup & In-Place Upgrader
-│   │   ├── signBinaries.ps1        # Authenticode digital signing script
-│   │   └── app.manifest            # Windows UAC & DPI awareness manifest
-│   ├── package.json                # Project dependencies & npm scripts
-│   └── vite.config.js              # Vite React configuration
-├── .editorconfig                   # Consistent multi-editor formatting rules
-├── .gitattributes                  # Normalized Git line endings
-├── .gitignore                      # Git exclusion rules
-├── CONTRIBUTING.md                 # Developer contribution guidelines
-├── LICENSE                         # MIT License
-├── README.md                       # Master project documentation
-└── SECURITY.md                     # Vulnerability reporting policy
-```
-
----
-
-## 🚀 Quick Start & Development Setup
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) v18.0+
-- [Git](https://git-scm.com/)
-- Windows 10/11 (with .NET Framework 4.5+ for native setup compilation)
-
-### 1. Clone & Install
-```bash
-git clone https://github.com/ChevronNexus/NeXusWeb.git
-cd "NeXusWeb/Stable V6.5.0"
-npm install
-```
-
-### 2. Run in Development Mode
-```bash
-npm run dev
-```
-
-### 3. Build & Package Standalone Windows Setup (.exe)
-```bash
-npm run build:setup
-```
-*Outputs:*
-- `dist-electron/NeXusWeb-Setup-v6.5.0.exe` (Self-extracting C# setup & in-place upgrader)
-- `dist-electron/NeXusWeb-V6-win32-x64/NeXusWeb-V6.exe` (Unpacked standalone application)
-
----
-
-## ⌨️ Global Keyboard Shortcuts
-
-| Shortcut | Action |
-| :--- | :--- |
-| <kbd>Ctrl</kbd> + <kbd>T</kbd> | Open New Tab |
-| <kbd>Ctrl</kbd> + <kbd>W</kbd> | Close Current Tab |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> | Reopen Last Closed Tab |
-| <kbd>Ctrl</kbd> + <kbd>N</kbd> | Open New Window |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> | Open New **Private Den** Sandbox |
-| <kbd>Ctrl</kbd> + <kbd>L</kbd> | Focus Address Bar |
-| <kbd>Ctrl</kbd> + <kbd>K</kbd> | Open Command Palette |
-| <kbd>Ctrl</kbd> + <kbd>R</kbd> / <kbd>F5</kbd> | Reload Current Page |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Toggle Split View |
-| <kbd>Ctrl</kbd> + <kbd>`</kbd> | Toggle Embedded Terminal |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> | Toggle Chromium DevTools |
-| <kbd>Ctrl</kbd> + <kbd>F</kbd> | Find in Page |
-
----
-
-## 🏢 About Chevron Nexus Software
-
-**Chevron Nexus Software** builds modern personal infrastructure, developer workflows, and privacy-first web systems.
-- **Website**: [www.ChevronNexus.com](https://www.ChevronNexus.com)
-- **Product**: NeXusWeb Browser (Version 6.5.0)
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+--------------------------------------------------------------------------------
+9. CODE SIGNING, PACKAGING & DISTRIBUTION
+--------------------------------------------------------------------------------
+• Windows Authenticode SHA-256 Code Signing with RFC 3161 Timestamping (DigiCert).
+• Mark-of-the-Web (Zone.Identifier) Removal script integration.
+• Standalone Windows Installer: NeXusWeb-Setup-v7.1.0.exe (129.68 MB).
+• Standalone Linux x64 Distribution: NeXusWeb-v7.1.0-linux-x64.zip (121.25 MB).
+• 1-Click Launchers: 'Launch NeXusWeb V7.1.0 (EXE).bat' and 'Launch NeXusWeb V7.1.0 (Dev).bat'.
+================================================================================
