@@ -4,8 +4,6 @@
 
 <br/>
 
-<img src="assets/nexusweb-logo.png" alt="NeXusWeb Browser Logo" width="140" height="140" style="border-radius: 50%;" />
-
 # 🌐 NeXusWeb Browser (V10.0.0)
 ### **Sovereign Privacy-First Web Infrastructure & Developer Browser**
 *Crafted with precision by **Chevron Nexus Software Private Limited** — [www.ChevronNexus.com](https://www.ChevronNexus.com)*
@@ -293,10 +291,10 @@ NeXusWeb is engineered and distributed in full accordance with statutory privacy
 ### **Chevron Nexus Software Private Limited**
 *Pioneering Sovereign Personal Computing Infrastructure & Developer Tools*
 
-📍 Mumbai, Maharashtra, India  
+📍  India  
 🌐 **Website:** [www.ChevronNexus.com](https://www.ChevronNexus.com)  
-📧 **Privacy Office:** [privacy@chevronnexus.com](mailto:privacy@chevronnexus.com)  
-⚖️ **Legal Counsel:** [legal@chevronnexus.com](mailto:legal@chevronnexus.com)  
+📧 **Privacy Office:** [Mr. Ray_Mond@outlook.com](mailto:Mr. Ray_Mond@outlook.com)  
+⚖️ **Legal Counsel:** [BlackflagR1@hotmail.com](mailto:BlackflagR1@hotmail.com)  
 
 ---
 
