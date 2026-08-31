@@ -1,0 +1,22 @@
+{
+  "appId": "com.chevronnexus.nexusweb",
+  "appName": "NeXusWeb",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#0a0d14",
+      "showSpinner": false
+    }
+  }
+}
