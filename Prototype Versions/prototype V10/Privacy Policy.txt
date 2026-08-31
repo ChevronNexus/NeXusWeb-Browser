@@ -1,0 +1,435 @@
+========================================================================================================================
+                                      CHEVRON NEXUS SOFTWARE PRIVATE LIMITED
+                                      NEXUSWEB BROWSER — COMPREHENSIVE PRIVACY POLICY
+========================================================================================================================
+Effective Date: August 27, 2026
+Last Updated:   August 27, 2026
+Version:        10.0.0 (and all subsequent releases and sub-variants)
+Product:        NeXusWeb Browser (Desktop, Portable, Enterprise, Developer, and Embedded Editions)
+Publisher:      Chevron Nexus Software Private Limited ("Chevron Nexus", "Company", "we", "us", or "our")
+Corporate HQ:   Mumbai, Maharashtra, India
+Official Email: privacy@chevronnexus.com / legal@chevronnexus.com
+Official Web:   https://www.ChevronNexus.com
+========================================================================================================================
+
+TABLE OF CONTENTS:
+------------------------------------------------------------------------------------------------------------------------
+1.  PREAMBLE, PHILOSOPHY & EXECUTIVE DECLARATION OF SOVEREIGNTY
+2.  STATUTORY & JURISDICTIONAL COMPLIANCE FRAMEWORKS (DPDP ACT 2023, IT ACT 2000, GDPR, CCPA/CPRA)
+3.  COMPREHENSIVE DEFINITIONS & INTERPRETATION
+4.  CATEGORICAL AFFIRMATION OF DATA WE DO NOT COLLECT (ZERO-TELEMETRY PRINCIPLE)
+5.  LOCAL-FIRST STORAGE ARCHITECTURE & DEVICE-RESIDENT DATA CATEGORIES
+    5.1.  Locally Stored Browsing History & Session States
+    5.2.  Encrypted Password & Autofill Vault (AES-256-GCM / PBKDF2)
+    5.3.  Bookmarks, Reading Lists, and ScratchPad Developer Notes
+    5.4.  Cookie Databases, Site Storage, IndexedDB, and WebSQL
+    5.5.  Universal File Viewer, Downloads, and Workspace Directories
+6.  CHEVRONNEXUS SYNC INFRASTRUCTURE (ZERO-KNOWLEDGE END-TO-END ENCRYPTED)
+    6.1.  Client-Side Cryptographic Architecture (PBKDF2 600,000 Iterations + BIP39 Mnemonic Seed)
+    6.2.  Sync Payload Categories & Ephemeral Server-Side Ciphertext
+    6.3.  Authentication Metadata & Account Management
+    6.4.  Server Infrastructure & Hosting Residency (AWS ap-south-1 Mumbai, India)
+7.  CHEVRONNEXUS HOME (PRO) LOCAL AREA NETWORK SERVER
+    7.1.  Air-Gapped / Intranet-Only Architecture
+    7.2.  Local Storage, Transcoding, and Media Streaming
+    7.3.  WiFi Monitor & Auto-Discovery Subsystem (UDP Port 45454)
+    7.4.  Disclaimer Regarding User-Hosted Local Network Content
+8.  AD-BLOCKING, NETWORK FILTERING, YOUTUBE AD SCRIPTS & CLIENT HINTS
+    8.1.  Local Request Interception & Rule Evaluation
+    8.2.  YouTube & Third-Party Media Filter Toggles (User Configuration & Control)
+    8.3.  Browser Fingerprint Defense & Cloudflare Turnstile Compatibility Safe-Paths
+    8.4.  Intermediary Safe Harbor & Third-Party Interaction Disclaimers
+9.  VOLUNTARY DONATIONS, PAYMENT GATEWAYS & FINANCIAL TRANSACTIONS
+    9.1.  Razorpay Payment Gateway & QR Code Donations ("Buy Me a Coffee")
+    9.2.  Data Handled by Financial Intermediaries vs. Zero Data Stored by Chevron Nexus
+10. FORWARD-LOOKING DATA COLLECTION PROVISIONS & USER NOTIFICATION COVENANT
+    10.1. Commitment to Prior Explicit In-App Notification Before Implementation
+    10.2. Prospective Categories (Opt-In Crash Telemetry, Aggregate Metrics, Diagnostics)
+    10.3. Explicit Consent Mechanisms & Revocability
+11. DATA SECURITY PROTOCOLS, PROCESS ISOLATION & ENCRYPTION STANDARDS
+    11.1. Chromium Sandboxing & Process Isolation Architecture
+    11.2. Transport Layer Security (TLS 1.3 Strict Ciphers)
+    11.3. Cryptographic Storage & Key Separation
+12. DATA RETENTION, DISPOSAL & UNINSTALLATION PROTOCOLS
+13. USER PRIVACY RIGHTS & EXERCISE MECHANISMS
+    13.1. Rights under India's Digital Personal Data Protection Act, 2023 (DPDP)
+    13.2. Rights under the European Union General Data Protection Regulation (GDPR)
+    13.3. Rights under the California Consumer Privacy Act / CPRA (United States)
+    13.4. Global Data Subject Request Execution Procedure
+14. CHILDREN'S & MINORS' PRIVACY ASSURANCES (COPPA, DPDP SECTION 9 COMPLIANCE)
+15. THIRD-PARTY DEPENDENCIES, EXTENSIONS & OPEN SOURCE COMPONENTS
+16. INCIDENT RESPONSE & STATUTORY BREACH NOTIFICATION FRAMEWORK
+17. GOVERNING LAW, DISPUTE RESOLUTION & BINDING ARBITRATION
+18. POLICY MODIFICATIONS, NOTICES & AMENDMENT PROCEDURES
+19. CORPORATE LEGAL CONTACT & GRIEVANCE REDRESSAL OFFICER
+
+========================================================================================================================
+1. PREAMBLE, PHILOSOPHY & EXECUTIVE DECLARATION OF SOVEREIGNTY
+========================================================================================================================
+1.1. Chevron Nexus Software Private Limited ("Chevron Nexus", "Company", "we", "us", or "our") has established NeXusWeb 
+Browser ("NeXusWeb", "Browser", or "Application") upon an uncompromising philosophical tenet: true digital sovereignty 
+belongs to the individual end-user. In an era dominated by pervasive surveillance capitalism, involuntary browser fingerprinting, 
+unauthorized telemetry ingestion, and covert behavioral profile generation, NeXusWeb is fundamentally engineered as an 
+air-gapped, zero-telemetry, local-first computing environment.
+
+1.2. This Comprehensive Privacy Policy ("Policy") constitutes a formal, legally binding instrument governing the operational, 
+cryptographic, technical, and jurisdictional relationship between Chevron Nexus and any natural person or legal entity 
+accessing, downloading, installing, compiling, distributing, or utilizing NeXusWeb Browser across all supported operating systems 
+(Windows, Linux, macOS, Android, and embedded platforms).
+
+1.3. By launching, executing, or continuing to run NeXusWeb Browser, you ("User", "you", or "your") acknowledge and agree to 
+the cryptographic assurances, technical realities, and limited data interactions articulated within this Policy. If you do not 
+expressly agree with each and every term set forth herein, you are strictly required to terminate execution of the Browser, 
+cease all interactions, and delete all associated program files and binary distributions immediately.
+
+1.4. We emphasize unconditionally: NeXusWeb Browser does NOT contain covert tracking beacons, commercial monetization backdoors, 
+remote profiling scripts, or involuntary telemetry dispatchers. The software executes locally on your hardware, stores its working 
+state inside your operating system user profile directory, and restricts remote data exchanges strictly to explicit user-initiated 
+network transmissions.
+
+========================================================================================================================
+2. STATUTORY & JURISDICTIONAL COMPLIANCE FRAMEWORKS
+========================================================================================================================
+2.1. This Policy is structured, promulgated, and enforced in full compliance with the statutory statutes governing data protection, 
+cybersecurity, and electronic intermediary responsibilities across domestic and international jurisdictions, specifically:
+    (a) The Digital Personal Data Protection Act, 2023 (DPDP Act, Act No. 22 of 2023, India);
+    (b) The Information Technology Act, 2000 (IT Act, India), as amended, including Section 43A, Section 72A, Section 79, and 
+        the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) 
+        Rules, 2011;
+    (c) Regulation (EU) 2016/679 of the European Parliament and of the Council (General Data Protection Regulation — GDPR);
+    (d) The California Consumer Privacy Act of 2018 (CCPA), as amended by the California Privacy Rights Act of 2020 (CPRA), 
+        California Civil Code § 1798.100 et seq.;
+    (e) The Lei Geral de Proteção de Dados Pessoais (LGPD, Law No. 13.709/2018, Brazil);
+    (f) The Personal Information Protection and Electronic Documents Act (PIPEDA, Canada);
+    (g) The Children’s Online Privacy Protection Act (COPPA, 15 U.S.C. §§ 6501–6506, United States).
+
+2.2. Because NeXusWeb operates on a decentralized, client-resident model where no user personal data is harvested or stored on 
+centralized servers by default, Chevron Nexus acts neither as an unauthorized data aggregator nor as a data broker under any 
+statutory definition. To the extent any minimal metadata is transmitted during optional, user-activated features (such as 
+ChevronNexus Sync or voluntary Razorpay donations), Chevron Nexus strictly complies with all lawful Data Fiduciary / Data Controller 
+responsibilities mandated under the DPDP Act 2023 and GDPR.
+
+========================================================================================================================
+3. COMPREHENSIVE DEFINITIONS & INTERPRETATION
+========================================================================================================================
+3.1. Throughout this Policy, the following capitalized terms shall have the exact meanings ascribed below:
+    (a) "Application" or "Browser": NeXusWeb Browser version 10.0.0 and all subsequent binary updates, hotfixes, source trees, 
+        pre-release prototypes, and associated native subsystems published by Chevron Nexus.
+    (b) "Company": Chevron Nexus Software Private Limited, including its corporate officers, directors, software engineers, 
+        successors, assignees, and authorized operational representatives.
+    (c) "Personal Data": Any information relating to an identified or identifiable natural person, as interpreted under Section 2(t) 
+        of the DPDP Act 2023 and Article 4(1) of the GDPR.
+    (d) "Processing": Any operation or set of operations performed on Personal Data, whether or not by automated means, including 
+        collection, recording, organization, structuring, storage, adaptation, retrieval, consultation, use, transmission, or erasure.
+    (e) "Zero-Telemetry": An architectural design standard wherein the software contains zero autonomous background code designed 
+        to report user activity, browsing patterns, device hardware fingerprints, or feature interaction metrics to remote servers.
+    (f) "Local Storage": Persistent and non-persistent directories allocated by the host operating system strictly within the user's 
+        local physical or virtual drive partition.
+    (g) "ChevronNexus Sync": The optional, user-enabled cloud synchronization service utilizing zero-knowledge cryptographic encryption.
+    (h) "ChevronNexus Home (Pro) Server": The integrated local area network (LAN) media streaming, backup, and file server subsystem 
+        designed to operate purely on intranet topologies.
+    (i) "Razorpay Gateway": The third-party electronic payment and QR code processing infrastructure provided by Razorpay Software 
+        Private Limited for voluntary donations.
+    (j) "Safe Harbor": Legal protections afforded to intermediary software platforms under Section 79 of the Indian IT Act 2000 
+        and international safe harbor analogues.
+
+========================================================================================================================
+4. CATEGORICAL AFFIRMATION OF DATA WE DO NOT COLLECT (ZERO-TELEMETRY PRINCIPLE)
+========================================================================================================================
+4.1. To eradicate all ambiguity and provide complete legal clarity, Chevron Nexus categorically affirms that NeXusWeb Browser 
+DOES NOT collect, harvest, log, monitor, transmit, sell, rent, commercialize, or profile any of the following data categories:
+    (a) Browsing History: We do not log URLs visited, page titles, navigation timestamps, referrers, or navigation frequency.
+    (b) Search Queries: We do not record, intercept, or proxy text entered into the Omnibox, search input bars, or home page.
+    (c) Keystroke Dynamics & Form Autofill: Passwords, usernames, credit card numbers, addresses, and form inputs are NEVER 
+        transmitted to Chevron Nexus.
+    (d) Hardware & Device Fingerprints: We do not aggregate canvas fingerprints, WebGL renderer signatures, audio context hashes, 
+        system font lists, or battery status indicators for tracking or remote identification.
+    (e) Geolocation Data: We do not request, access, or log GPS coordinates, cellular tower triangulations, or IP-based precise 
+        geographic locations.
+    (f) Network Traffic & Deep Packet Inspection: All HTTP/HTTPS/WebSocket payloads pass directly between the user's machine and 
+        the target remote destination without routing through any proprietary Chevron Nexus proxy servers.
+    (g) Session Duration & Feature Analytics: We do not measure how long you use the browser, what buttons you click, which 
+        developer panels you open, or what themes you activate.
+    (h) Diagnostic Crash Logs (Current Release): The current version contains zero autonomous crash report uploaders. Crashes fail 
+        silently or dump local core files exclusively to your device storage.
+
+========================================================================================================================
+5. LOCAL-FIRST STORAGE ARCHITECTURE & DEVICE-RESIDENT DATA CATEGORIES
+========================================================================================================================
+5.1. Locality of Storage:
+    All user profiles, browser states, cache blocks, indexed records, and configuration preferences reside strictly within your 
+    operating system application data path (e.g., `%APPDATA%\nexusweb-v10` on Windows, `~/.config/nexusweb-v10` on Linux, 
+    or `~/Library/Application Support/nexusweb-v10` on macOS).
+
+5.2. Encrypted Password & Autofill Vault:
+    (a) When a user elects to store credentials in NeXusWeb, the credentials are encrypted using industry-standard Advanced 
+        Encryption Standard in Galois/Counter Mode with 256-bit keys (AES-256-GCM).
+    (b) Cryptographic key derivation is performed locally utilizing Password-Based Key Derivation Function 2 (PBKDF2) with 
+        a minimum iteration count of 600,000 rounds and a cryptographically secure random salt.
+    (c) The decryption key resides exclusively in device RAM during an authenticated session and is never written in plaintext 
+        to disk or transmitted over any network interface.
+
+5.3. Bookmarks, History & ScratchPad Notes:
+    (a) Bookmarks, browsing records, download histories, and developer ScratchPad notes are written to local JSON and SQLite 
+        database files on the local filesystem.
+    (b) Users possess full administrative autonomy to inspect, copy, backup, or permanently purge these files at any time 
+        via built-in browser settings or direct file manager manipulation.
+
+5.4. Cookies, Web Storage & Cache:
+    (a) Site cookies, localStorage, sessionStorage, IndexedDB, and WebSQL caches are governed by standard Chromium sandboxing 
+        rules and stored locally.
+    (b) In "Private Den" (Incognito/Sovereign) mode, all session storage, cookies, and temporary memory blocks are allocated 
+        ephemerally in RAM and permanently expunged upon tab or window closure.
+
+5.5. Universal File Viewer & Workspaces:
+    Files opened within the Universal File Viewer (including PDFs, Office documents, markdown files, media files, and code buffers) 
+    are rendered strictly via local client-side memory buffers. No file contents are uploaded to cloud servers for parsing or conversion.
+
+========================================================================================================================
+6. CHEVRONNEXUS SYNC INFRASTRUCTURE (ZERO-KNOWLEDGE END-TO-END ENCRYPTED)
+========================================================================================================================
+6.1. Optional Activation & Zero-Knowledge Architecture:
+    (a) ChevronNexus Sync is entirely optional and remains inactive by default until explicitly enabled by the user.
+    (b) The Sync system operates under a strict Zero-Knowledge End-to-End Encrypted (E2EE) cryptographic model.
+    (c) All user sync payloads (bookmarks, saved credentials, active tab states, and preferences) are fully encrypted on the 
+        originating client device BEFORE transmission over the network.
+
+6.2. Cryptographic Key Derivation & Recovery Phrase:
+    (a) The encryption keys are derived client-side from the user's Master Password and an optional 12-word BIP39 mnemonic seed phrase.
+    (b) The Master Password and recovery seed are NEVER transmitted to or stored on Chevron Nexus servers in plaintext or hash 
+        form that permits decryption.
+    (c) Chevron Nexus engineers, system administrators, and automated backend processes have ZERO technical capacity to decrypt, 
+        inspect, or reconstruct user sync payloads.
+
+6.3. Server-Side Storage & Lifecycle:
+    (a) The Sync server stores only opaque, encrypted binary blobs associated with an anonymized cryptographic account identifier.
+    (b) Encrypted payloads stored on the Sync server are retained strictly to facilitate multi-device synchronization and are 
+        subject to automated deletion after 180 consecutive days of account inactivity.
+    (c) Users may purge their entire cloud sync dataset and delete their account at any time directly through the Sync Management panel.
+
+6.4. Hosting Infrastructure & Data Residency:
+    All ChevronNexus Sync relay and storage nodes are hosted within enterprise data centers located in Mumbai, Maharashtra, India 
+    (AWS ap-south-1 region), adhering strictly to Indian data sovereignty standards.
+
+========================================================================================================================
+7. CHEVRONNEXUS HOME (PRO) LOCAL AREA NETWORK SERVER
+========================================================================================================================
+7.1. Intranet Architecture:
+    ChevronNexus Home (Pro) transforms the user's host machine into a local media streaming and cloud storage node. This service 
+    binds strictly to local intranet network interfaces (such as `127.0.0.1`, `192.168.x.x`, or `10.x.x.x`).
+
+7.2. Zero External Routing:
+    (a) Media files, video streams, audio tracks, transcoding pipelines, and shared directory assets NEVER leave your local WiFi or 
+        Ethernet network.
+    (b) No media metadata, file names, or streaming logs are reported to Chevron Nexus cloud infrastructure.
+
+7.3. WiFi Monitor & Auto-Discovery:
+    (a) The local network discovery subsystem utilizes standard User Datagram Protocol (UDP) broadcast packets on port 45454 to discover 
+        paired NeXusWeb instances on the identical subnet.
+    (b) Local device names and IP addresses enumerated during WiFi monitoring are processed in ephemeral memory and never 
+        transmitted externally.
+
+7.4. User Content Liability Disclaimer:
+    The user exercises sole, exclusive legal ownership and responsibility over any files, audio-visual works, or copyrighted materials 
+    stored, transcoded, or streamed via ChevronNexus Home. Chevron Nexus disclaims all liability regarding local media storage.
+
+========================================================================================================================
+8. AD-BLOCKING, NETWORK FILTERING, YOUTUBE AD SCRIPTS & CLIENT HINTS
+========================================================================================================================
+8.1. Local Execution of Network Filters:
+    NeXusWeb includes an integrated network filter and ad-blocking engine (`adblockEngine.js`, `networkFilter.js`). All domain matching, 
+    cosmetic element hiding, tracker rule parsing, and network request interceptions execute entirely on the local CPU without querying 
+    external lookup services during page navigation.
+
+8.2. YouTube Ad Shield & Third-Party Script Modifications (User-Controlled Feature):
+    (a) NeXusWeb provides user-configurable settings enabling the suppression, accelerated playback, or cosmetic filtering of 
+        intrusive advertisement scripts on third-party video platforms, including YouTube.
+    (b) This functionality is provided strictly as a client-side technological tool under the direct control and configuration of the 
+        end-user.
+    (c) Chevron Nexus does not operate intermediary scraping servers, does not republish proprietary third-party video streams, and 
+        does not circumvent digital rights management (DRM) encryption.
+    (d) The decision to activate, modify, or deactivate ad-blocking or media-filtering rules rests solely with the user, who assumes 
+        all legal responsibility under applicable third-party platform terms of service.
+
+8.3. Fingerprint Defense & Safe-Paths:
+    To ensure seamless web compatibility without compromising privacy, NeXusWeb implements authentic Chromium Client Hints (`Sec-CH-UA`) 
+    and prototype protections, avoiding anomalous injection patterns that trigger automated bot-detection false positives (such as 
+    Cloudflare Turnstile challenges).
+
+========================================================================================================================
+9. VOLUNTARY DONATIONS, PAYMENT GATEWAYS & FINANCIAL TRANSACTIONS
+========================================================================================================================
+9.1. Free & Open Access Model:
+    NeXusWeb Browser is distributed free of charge. No payment is required to unlock browser functionality, privacy tools, developer 
+    panels, or update mechanisms.
+
+9.2. Voluntary Donations ("Buy Me a Coffee" / QR Support):
+    (a) Users wishing to support ongoing independent software development may make voluntary, non-refundable donations.
+    (b) Donation QR codes displayed in NeXusWeb direct users to third-party payment gateways, primarily Razorpay Software Private 
+        Limited ("Razorpay") or direct UPI interfaces.
+    (c) When executing a donation transaction, the user interacts directly with Razorpay’s payment interface.
+    (d) Razorpay acts as an independent Data Controller regarding your banking details, credit/debit card numbers, UPI handles, 
+        and transaction identifiers, governed under Razorpay’s Privacy Policy (https://razorpay.com/privacy/).
+    (e) Chevron Nexus receives only anonymized settlement reports and aggregated gross funding figures. We NEVER receive, process, 
+        or store your banking passwords, card CVVs, or financial credentials.
+
+========================================================================================================================
+10. FORWARD-LOOKING DATA COLLECTION PROVISIONS & USER NOTIFICATION COVENANT
+========================================================================================================================
+10.1. Covenant of Prior Explicit Notification:
+    While NeXusWeb V10.0.0 collects zero telemetry, Chevron Nexus formally covenants that should any future update introduce 
+    diagnostic reporting, automated crash dumps, or aggregated telemetry:
+    (a) NO telemetry or diagnostic collection will be activated silently, covertly, or without prior notice.
+    (b) An explicit, prominent in-app notification and modal dialogue will be presented to the user BEFORE any new collection 
+        code is executed.
+    (c) All future diagnostic or telemetry features shall be strictly OPT-IN by default or provide an unambiguous one-click toggle 
+        for immediate and total deactivation.
+
+10.2. Permissible Scope of Potential Future Data:
+    If implemented in future releases following user notification, diagnostic data will be strictly limited to non-identifying technical 
+    telemetry, such as:
+    (a) Stack traces and fatal exception logs (excluding URL query parameters and memory heap dumps containing personal strings);
+    (b) Host operating system version, CPU architecture, and GPU driver model;
+    (c) Aggregated execution metrics (e.g., application startup latency, memory footprint).
+
+10.3. Absolute Prohibition on Content Telemetry:
+    Under no circumstances will future updates collect browsing histories, keystroke logs, search queries, password vault contents, 
+    or communications payloads.
+
+========================================================================================================================
+11. DATA SECURITY PROTOCOLS, PROCESS ISOLATION & ENCRYPTION STANDARDS
+========================================================================================================================
+11.1. Process Isolation & Sandboxing:
+    NeXusWeb utilizes Chromium’s multi-process architecture. Web page renderers, extension scripts, and utility workers execute 
+    inside restricted operating system sandboxes with minimized privileges, preventing malicious web code from reading local file 
+    structures or escaping runtime isolation boundaries.
+
+11.2. Cryptographic Security Standards:
+    (a) Data at Rest: Passwords and sensitive vault elements are protected by AES-256-GCM encryption with PBKDF2 key stretching.
+    (b) Data in Transit: All external network requests initiated by the browser (such as HTTPS navigation, extension downloads, 
+        and sync transmissions) mandate Transport Layer Security (TLS 1.2 / TLS 1.3) with forward-secrecy cipher suites.
+
+11.3. Local Network Boundary Protection:
+    The internal IPC bridge (`tabPreload.js` / Electron context bridge) enforces rigorous context isolation, completely blocking 
+    arbitrary website scripts from invoking Node.js primitives or system shell execution APIs.
+
+========================================================================================================================
+12. DATA RETENTION, DISPOSAL & UNINSTALLATION PROTOCOLS
+========================================================================================================================
+12.1. User Retention Autonomy:
+    All local data persists on your machine solely for the duration desired by you. You may clear history, cookies, cached media, 
+    and saved passwords at any time via Settings → Clear Browsing Data.
+
+12.2. Complete Uninstallation Purge:
+    (a) When running the dedicated NeXusWeb uninstaller (`uninstaller.exe`), users are provided with an explicit choice to either 
+        retain or completely wipe all local user profile data.
+    (b) Selecting complete removal immediately and irreversibly deletes the entire application directory, cache folders, configuration 
+        registries, and cryptographic vault stores from your storage media.
+
+========================================================================================================================
+13. USER PRIVACY RIGHTS & EXERCISE MECHANISMS
+========================================================================================================================
+13.1. Under the DPDP Act 2023 (India), GDPR (European Union), CCPA/CPRA (California), and corresponding international frameworks, 
+users maintain fundamental statutory rights regarding their personal information:
+    (a) Right to Access & Confirmation: You have the right to confirm whether we process your personal data and to request a copy.
+    (b) Right to Correction & Erasure: You have the right to request correction of inaccurate data or complete erasure of your data.
+    (c) Right to Restrict Processing & Withdraw Consent: You may withdraw consent for optional services (e.g., Sync) at any time.
+    (d) Right to Data Portability: You may export your bookmarks, passwords, and browser configurations in open JSON formats.
+    (e) Right to Nominate / Post-Mortem Control: In accordance with Indian DPDP Act provisions, you have the right to nominate an 
+        individual to manage your digital data rights in the event of death or incapacity.
+
+13.2. Execution of Rights:
+    Because NeXusWeb does not store personal data on centralized servers, you can exercise virtually all rights of access, correction, 
+    and erasure instantly and directly on your own device. For inquiries regarding cloud sync account purging or legal notices, email 
+    our Data Protection Office at: privacy@chevronnexus.com.
+
+========================================================================================================================
+14. CHILDREN'S & MINORS' PRIVACY ASSURANCES
+========================================================================================================================
+14.1. NeXusWeb is a general-purpose web browsing software application designed for general audiences, including developers, 
+students, professionals, and individual consumers of all ages.
+14.2. NeXusWeb DOES NOT knowingly collect, request, profile, track, or commercialize personal data from children or minors under 
+the age of 18 (or under 13 under COPPA, or under 16 under the GDPR).
+14.3. In full compliance with Section 9 of the Indian DPDP Act 2023, Chevron Nexus does NOT engage in behavioral tracking, targeted 
+advertising, or automated profiling directed at children. Because all browsing data remains strictly on the local client device, 
+parents and guardians maintain complete physical and administrative custody over minors' software usage.
+
+========================================================================================================================
+15. THIRD-PARTY DEPENDENCIES, EXTENSIONS & OPEN SOURCE COMPONENTS
+========================================================================================================================
+15.1. Open Source Stack:
+    NeXusWeb is engineered upon foundational open-source technologies, including Chromium, Electron, React, Vite, Lucide Icons, 
+    and xterm.js. These components are incorporated under their respective permissive open-source licenses (BSD, MIT, ISC, Apache 2.0). 
+    No open-source dependency utilized in NeXusWeb is permitted to inject third-party commercial telemetry.
+
+15.2. Third-Party Extensions & Web Stores:
+    (a) Users may choose to install third-party browser extensions from the Chrome Web Store or Microsoft Edge Add-ons catalog.
+    (b) Chevron Nexus does not develop, operate, audit, or control third-party extensions.
+    (c) The installation of any extension is an independent action governed exclusively by that third party's privacy policy. 
+        Chevron Nexus disclaims all liability for data processed by user-installed extensions.
+
+15.3. Third-Party Websites & External Hyperlinks:
+    Navigating to third-party web destinations exposes your IP address and client handshake directly to the destination web server, 
+    subject to that website’s independent terms and privacy declarations.
+
+========================================================================================================================
+16. INCIDENT RESPONSE & STATUTORY BREACH NOTIFICATION FRAMEWORK
+========================================================================================================================
+16.1. In the extraordinary event that Chevron Nexus becomes aware of any security incident affecting the integrity of the optional 
+ChevronNexus Sync servers, we shall:
+    (a) Immediately mobilize our cybersecurity incident response team to isolate and remediate the vulnerability;
+    (b) Issue a formal breach notification to the Data Protection Board of India (DPBI) and CERT-In in compliance with statutory 
+        deadlines mandated by Indian cybersecurity regulations;
+    (c) Post a prominent security bulletin and direct in-app advisory to all affected registered Sync users within 72 hours of 
+        incident verification.
+
+========================================================================================================================
+17. GOVERNING LAW, DISPUTE RESOLUTION & BINDING ARBITRATION
+========================================================================================================================
+17.1. Governing Law:
+    This Policy, its construction, validity, and performance, shall be governed strictly and exclusively by the substantive laws of 
+    the Republic of India, without regard to conflict-of-law principles or the United Nations Convention on Contracts for the 
+    International Sale of Goods.
+
+17.2. Jurisdiction & Forum:
+    Subject to the arbitration clause below, any legal action, dispute, or litigation arising out of or concerning this Privacy Policy 
+    or NeXusWeb Browser shall be instituted exclusively within the competent courts of competent jurisdiction in Mumbai, Maharashtra, 
+    India.
+
+17.3. Binding Dispute Resolution:
+    Any controversy or claim arising out of this Policy shall be resolved by binding arbitration under the Arbitration and Conciliation 
+    Act, 1996 (India), before a sole arbitrator appointed by Chevron Nexus. The seat and venue of arbitration shall be Mumbai, India, 
+    and proceedings shall be conducted in the English language.
+
+========================================================================================================================
+18. POLICY MODIFICATIONS, NOTICES & AMENDMENT PROCEDURES
+========================================================================================================================
+18.1. Right of Revision:
+    Chevron Nexus reserves the unilateral right to amend, update, or revise this Privacy Policy periodically to reflect technological 
+    advancements, statutory amendments, or product expansions.
+
+18.2. Notice of Material Amendments:
+    When material amendments occur, we will update the "Last Updated" date at the head of this document and publish a notice within 
+    the NeXusWeb Update Center / About Panel. Continued use of NeXusWeb following such publication constitutes binding acceptance 
+    of the revised Policy.
+
+========================================================================================================================
+19. CORPORATE LEGAL CONTACT & GRIEVANCE REDRESSAL OFFICER
+========================================================================================================================
+19.1. Grievance Redressal Mechanism (Rule 3(11) of IT Rules, 2011 & DPDP Act 2023):
+    In accordance with the statutory mandates of the Information Technology Act, 2000, and the Digital Personal Data Protection Act, 
+    2023, the contact details of the Grievance Officer / Data Protection Officer for Chevron Nexus Software Private Limited are:
+
+    Attention: Grievance Redressal & Data Protection Officer
+    Corporate Entity: Chevron Nexus Software Private Limited
+    Postal Address: 123 Innovation Park, Bandra East, Mumbai, Maharashtra, India – 400072
+    Electronic Mail: privacy@chevronnexus.com / legal@chevronnexus.com
+    Official Portal: https://www.ChevronNexus.com
+
+19.2. Any inquiry, data subject request, or grievance submitted to our Grievance Officer will be formally acknowledged within 
+forty-eight (48) hours and resolved within the statutory timeline prescribed under applicable law.
+
+========================================================================================================================
+                                      END OF PRIVACY POLICY
+                       © 2026 Chevron Nexus Software Private Limited. All Rights Reserved.
+========================================================================================================================
