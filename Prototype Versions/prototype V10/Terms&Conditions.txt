@@ -1,0 +1,421 @@
+========================================================================================================================
+                                      CHEVRON NEXUS SOFTWARE PRIVATE LIMITED
+                                      NEXUSWEB BROWSER — TERMS & CONDITIONS OF USE
+========================================================================================================================
+Effective Date: August 27, 2026
+Last Updated:   August 27, 2026
+Version:        10.0.0 (and all subsequent releases and sub-variants)
+Product:        NeXusWeb Browser (Desktop, Portable, Enterprise, Developer, and Embedded Editions)
+Publisher:      Chevron Nexus Software Private Limited ("Chevron Nexus", "Company", "we", "us", or "our")
+Corporate HQ:   Mumbai, Maharashtra, India
+Official Email: legal@chevronnexus.com / contact@chevronnexus.com
+Official Web:   https://www.ChevronNexus.com
+========================================================================================================================
+
+TABLE OF CONTENTS:
+------------------------------------------------------------------------------------------------------------------------
+1.  ACCEPTANCE OF TERMS, CONTRACTUAL ENFORCEABILITY & PARTIES
+2.  STATUTORY FRAMEWORK, INTERMEDIARY STATUS & SAFE HARBOR DECLARATIONS (SECTION 79 IT ACT 2000)
+3.  COMPREHENSIVE DEFINITIONS & RULES OF CONSTRUCTION
+4.  GRANT OF LICENSE, EDITIONS & SCOPE OF USE
+    4.1.  Personal, Developer, and Academic License Grant
+    4.2.  Enterprise & Organizational Deployment Provisions
+    4.3.  Perpetual & Royalty-Free Nature of the Base Browser
+    4.4.  Reservation of All Rights Not Expressly Granted
+5.  RESTRICTIONS, PROHIBITED USES & INTELLECTUAL INTEGRITY
+    5.1.  Reverse Engineering & Decompilation Prohibitions
+    5.2.  Derivative Works, Redistribution & Commercial Resale Restrictions
+    5.3.  Unlawful Activities, Cyber-Offenses & Network Scanning Prohibitions
+    5.4.  Security Bypass, DRM Tampering & Exploitation Prohibitions
+6.  INTELLECTUAL PROPERTY RIGHTS, TRADEMARKS & OPEN-SOURCE INTEGRATIONS
+    6.1.  Proprietary Ownership of NeXusWeb Architecture, Code & Assets
+    6.2.  Trademark Notices ("NeXusWeb", "Chevron Nexus", "Private Den", "Sovereign Mode")
+    6.3.  Third-Party Open Source Components & Permissive License Acknowledgment
+    6.4.  User-Generated Content Ownership (Zero Claim by Chevron Nexus)
+7.  CHEVRONNEXUS SYNC CLOUD SERVICE TERMS
+    7.1.  Zero-Knowledge End-to-End Encryption Model & Key Custody
+    7.2.  User Responsibility for Master Passwords & 12-Word BIP39 Seed Phrases
+    7.3.  Absolute Disclaimer of Recovery Capacity for Lost Encryption Credentials
+    7.4.  Cloud Sync Service Availability & Inactivity Purge Cycles
+8.  CHEVRONNEXUS HOME (PRO) LOCAL INTRANET SERVER TERMS
+    8.1.  Local Area Network Operation & Air-Gapped Topology
+    8.2.  User Custody & Legal Responsibility for Hosted/Transcoded Media
+    8.3.  Network Security & Router Configuration Responsibility
+    8.4.  Total Indemnification of Company Regarding Local Network Streams
+9.  AD-BLOCKING, NETWORK FILTERING, YOUTUBE AD SHIELD & THIRD-PARTY PLATFORM POLICIES
+    9.1.  Nature of Built-in Client-Side Filtering Tools
+    9.2.  User Configuration of Video/Ad Script Modifiers & Independent Volition
+    9.3.  Disclaimers Regarding Third-Party Terms of Service & Intermediary Neutrality
+    9.4.  Anti-Tampering Compliance & Web Compatibility Safeguards
+10. VOLUNTARY DONATIONS, PAYMENT GATEWAYS & FINANCIAL TERMS ("BUY ME A COFFEE")
+    10.1. Voluntary & Non-Refundable Nature of Donations via Razorpay / UPI QR
+    10.2. No Equity, Commercial Rights, Service Level Agreements, or Consideration
+    10.3. Independent Third-Party Payment Processor Relationship
+11. THIRD-PARTY WEB SITES, EXTENSIONS & EXTERNAL API INTEGRATIONS
+    11.1. Chrome Web Store & Edge Add-ons Compatibility & Disclaimers
+    11.2. Independence of Third-Party Websites, Search Engines & External Services
+12. COMPREHENSIVE DISCLAIMER OF WARRANTIES ("AS IS" & "AS AVAILABLE")
+    12.1. Complete Disclaimer of Express & Implied Warranties
+    12.2. No Warranty of Uninterrupted, Error-Free, or Secure Operation
+    12.3. Assumption of Risk by End-User
+13. ABSOLUTE LIMITATION OF LIABILITY
+    13.1. Total Exclusion of Indirect, Consequential, Punitive & Special Damages
+    13.2. Exclusion of Damages for Data Loss, Hardware Impairment & Business Interruption
+    13.3. Absolute Aggregate Monetary Liability Ceiling (Zero / Amounts Actually Paid)
+14. COMPREHENSIVE INDEMNIFICATION COVENANT (HOLD HARMLESS)
+    14.1. Scope of User Indemnification Obligations
+    14.2. Defense of Claims, Counsel Selection & Settlement Authority
+15. SOFTWARE UPDATES, MODIFICATIONS & FORWARD-LOOKING COVENANTS
+    15.1. Update Delivery Mechanisms & Verification
+    15.2. Prior In-App Notice Covenant Before Any Future Data Collection Implementation
+16. TERM, SUSPENSION, UNINSTALLATION & DATA PURGE PROTOCOLS
+17. GOVERNING LAW, DISPUTE RESOLUTION & MANDATORY BINDING ARBITRATION
+    17.1. Substantive Governing Law (Republic of India)
+    17.2. Mandatory Binding Arbitration (Arbitration and Conciliation Act, 1996)
+    17.3. Exclusive Court Jurisdiction (Mumbai, Maharashtra, India)
+    17.4. Absolute Waiver of Class Action & Consolidated Litigation
+18. SEVERABILITY, NON-WAIVER, FORCE MAJEURE & ENTIRE AGREEMENT
+19. STATUTORY NOTICES & GRIEVANCE REDRESSAL OFFICER CONTACT
+
+========================================================================================================================
+1. ACCEPTANCE OF TERMS, CONTRACTUAL ENFORCEABILITY & PARTIES
+========================================================================================================================
+1.1. Enforceability & Agreement:
+    These Terms & Conditions ("Terms", "Agreement", or "Contract") constitute a legally binding, enforceable agreement 
+    entered into between you (whether an individual natural person, enterprise developer, corporation, or other legal entity, 
+    hereinafter referred to as "User", "you", or "your") and Chevron Nexus Software Private Limited (hereinafter referred to 
+    as "Chevron Nexus", "Company", "we", "us", or "our").
+
+1.2. Assent Through Execution:
+    By downloading, installing, copying, opening, compiling, executing, or continuing to run the NeXusWeb Browser application 
+    ("NeXusWeb", "Browser", or "Software"), you unequivocally and unconditionally assent to, agree with, and become bound by all 
+    stipulations, warranties, disclaimers, limitations of liability, and dispute covenants contained within this Agreement.
+
+1.3. Rejection of Terms:
+    If you do not unconditionally agree to every provision of these Terms, you are granted no legal license or authority to use 
+    the Browser. You must immediately cease all access, exit the program, and permanently delete all binary files, installers, 
+    scripts, and copies of NeXusWeb from all your storage devices.
+
+1.4. Capacity to Contract:
+    You represent and warrant that you possess full legal capacity, authority, and power to enter into this Agreement under the Indian 
+    Contract Act, 1872, or the applicable laws of your domicile. If you accept these Terms on behalf of a corporate entity, company, 
+    or educational institution, you represent and warrant that you have full organizational authority to bind that entity.
+
+========================================================================================================================
+2. STATUTORY FRAMEWORK, INTERMEDIARY STATUS & SAFE HARBOR DECLARATIONS
+========================================================================================================================
+2.1. Intermediary Status under Section 79 of the Information Technology Act, 2000 (India):
+    (a) NeXusWeb Browser operates as a decentralized, client-side electronic software tool and intermediary platform as defined 
+        under Section 2(1)(w) of the Information Technology Act, 2000 (IT Act, India).
+    (b) In accordance with Section 79 of the IT Act, 2000, and the Information Technology (Intermediary Guidelines and Digital 
+        Media Ethics Code) Rules, 2021, Chevron Nexus exercises zero editorial control, transmission initiation, recipient selection, 
+        or modification over third-party content, websites, audio-visual streams, or data packets accessed by users through the Browser.
+    (c) Chevron Nexus claims full statutory safe harbor protections against liability for any third-party data, content, information, 
+        or communication link made available, rendered, or cached by users through the operation of NeXusWeb.
+
+2.2. International Safe Harbor Equivalents:
+    Chevron Nexus expressly invokes and relies upon all equivalent international intermediary immunities, including Section 230 
+    of the United States Communications Decency Act (47 U.S.C. § 230), Title II of the Digital Millennium Copyright Act (17 U.S.C. § 512), 
+    and Articles 12–15 of the European Union E-Commerce Directive (Directive 2000/31/EC) / Digital Services Act (Regulation (EU) 2022/2065).
+
+========================================================================================================================
+3. COMPREHENSIVE DEFINITIONS & RULES OF CONSTRUCTION
+========================================================================================================================
+3.1. Definitions:
+    (a) "Application" / "Browser": The executable computer software program known as NeXusWeb Browser (Version 10.0.0 and all 
+        subsequent builds, forks, and distributions), including all integrated modules, binaries, assets, preload scripts, and user interfaces.
+    (b) "Chevron Nexus": Chevron Nexus Software Private Limited, a corporate entity organized and existing under the laws of India, 
+        its affiliates, officers, directors, founders, software architects, and legal successors.
+    (c) "ChevronNexus Sync": The optional, client-encrypted multi-device cloud synchronization service.
+    (d) "ChevronNexus Home (Pro) Server": The optional local area network server module enabling local media streaming and file sharing.
+    (e) "Third-Party Content": Any text, video, audio, image, script, web page, API, or advertisement hosted by external domains 
+        and accessed by the user via the Browser.
+    (f) "Razorpay Gateway": The electronic payment infrastructure provided by Razorpay Software Private Limited for voluntary donations.
+
+========================================================================================================================
+4. GRANT OF LICENSE, EDITIONS & SCOPE OF USE
+========================================================================================================================
+4.1. Personal, Developer, and Academic License Grant:
+    Subject to strict compliance with these Terms, Chevron Nexus grants you a worldwide, non-exclusive, non-transferable, revocable, 
+    royalty-free license to install, execute, and utilize NeXusWeb Browser on personal computers, laptops, virtual machines, and 
+    workstations solely for personal browsing, development testing, coding workbench analysis, and educational purposes.
+
+4.2. Enterprise & Organizational Deployments:
+    Enterprise organizations, government bodies, and commercial institutions are permitted to deploy NeXusWeb across corporate 
+    device fleets. Enterprise deployments remain subject to all restrictions set forth in Section 5 and any supplemental Enterprise 
+    Service Agreement that may be executed between the Company and the enterprise client.
+
+4.3. Perpetual Base License:
+    The license granted to use the base NeXusWeb Browser binary is perpetual and free of subscription fees. No core feature 
+    (including multi-tab browsing, ad-blocking, developer terminals, Universal File Viewer, or Private Den) will be retroactively 
+    subjected to compulsory paywalls.
+
+4.4. Reservation of Rights:
+    All rights, titles, ownership interests, and intellectual property not expressly granted to you in this Section 4 are strictly 
+    and exclusively reserved by Chevron Nexus.
+
+========================================================================================================================
+5. RESTRICTIONS, PROHIBITED USES & INTELLECTUAL INTEGRITY
+========================================================================================================================
+5.1. Strict Prohibitions on Misuse:
+    You expressly covenant and agree that you shall NOT, directly or indirectly, nor assist or permit any third party to:
+    (a) Reverse engineer, decompile, disassemble, decrypt, unpack, extract source code, or attempt to derive algorithmic secrets 
+        from proprietary compiled modules of NeXusWeb, except to the strict extent permitted by mandatory statutory law;
+    (b) Rebrand, rename, resell, rent, lease, sub-license, commercialize, or redistribute NeXusWeb binaries under another trademark 
+        or corporate identity without prior express written authorization from Chevron Nexus;
+    (c) Modify, alter, patch, or inject malicious payloads, spyware, adware, or covert tracking code into NeXusWeb distributions;
+    (d) Utilize NeXusWeb or its integrated developer tools (terminals, port scanners, network inspectors) to execute unauthorized 
+        cyber-attacks, denial-of-service (DoS) assaults, port intrusions against networks you do not own, or unauthorized penetration tests;
+    (e) Use NeXusWeb to download, store, stream, or distribute unlawful material, including child sexual abuse material (CSAM), 
+        terrorist propaganda, or content inciting imminent unlawful violence;
+    (f) Attempt to circumvent, tamper with, or break the cryptographic controls of the ChevronNexus Sync system or impersonate 
+        other registered sync accounts;
+    (g) Utilize automated bot scripts or scrapers to overwhelm Chevron Nexus cloud infrastructure, update endpoints, or sync relays.
+
+========================================================================================================================
+6. INTELLECTUAL PROPERTY RIGHTS, TRADEMARKS & OPEN-SOURCE INTEGRATIONS
+========================================================================================================================
+6.1. Proprietary Ownership:
+    NeXusWeb Browser, including its source code, architecture, UX/UI designs, icons, themes, build scripts, documentation, and 
+    associated intellectual property, is the sole and exclusive proprietary property of Chevron Nexus Software Private Limited, 
+    protected under the Indian Copyright Act, 1957, the Indian Patents Act, 1970, and international intellectual property treaties.
+
+6.2. Trademarks:
+    "NeXusWeb", "Chevron Nexus", "ChevronNexus Home", "Private Den", "Sovereign Mode", and the Chevron Nexus emblem are registered 
+    or unregistered trademarks of Chevron Nexus. No right or license to use these trademarks is granted without prior written consent.
+
+6.3. Open-Source Component Acknowledgment:
+    NeXusWeb incorporates open-source components, including the Chromium browser engine (BSD License), Electron runtime (MIT License), 
+    React framework (MIT License), Vite build system (MIT License), Lucide Icons (ISC License), and xterm.js (MIT License). 
+    The respective open-source licenses are acknowledged and preserved in the application bundle. Nothing in these Terms shall be 
+    construed to restrict rights granted to you under applicable open-source license agreements.
+
+6.4. User-Generated Data Ownership:
+    Chevron Nexus asserts zero ownership or intellectual property claim over bookmarks, ScratchPad notes, downloaded files, 
+    source code tested in developer workbenches, or personal media streamed by users through NeXusWeb. All such data remains 
+    the exclusive property of the user.
+
+========================================================================================================================
+7. CHEVRONNEXUS SYNC CLOUD SERVICE TERMS
+========================================================================================================================
+7.1. Zero-Knowledge Cryptographic Model:
+    (a) ChevronNexus Sync utilizes client-side zero-knowledge encryption (AES-256-GCM / PBKDF2). All sync payloads are encrypted 
+        on your hardware before transmission.
+    (b) Chevron Nexus maintains ZERO access to your encryption keys, Master Password, or decrypted sync payloads.
+
+7.2. Absolute User Custody of Recovery Credentials:
+    (a) You are solely and exclusively responsible for memorizing, safeguarding, and backing up your Master Password and 12-word 
+        BIP39 mnemonic recovery seed.
+    (b) IF YOU LOSE OR FORGET YOUR MASTER PASSWORD AND RECOVERY PHRASE, CHEVRON NEXUS CANNOT RECOVER, RESET, OR DECRYPT YOUR SYNC DATA. 
+        YOU ACKNOWLEDGE AND ACCEPT THIS MATHEMATICAL REALITY WITHOUT RECOURSE.
+
+7.3. Service Availability & Data Lifecycle:
+    Chevron Nexus provides Sync on an "as available" basis. Encrypted blobs stored on Sync servers are subject to automated purging 
+    following 180 days of continuous account inactivity.
+
+========================================================================================================================
+8. CHEVRONNEXUS HOME (PRO) LOCAL INTRANET SERVER TERMS
+========================================================================================================================
+8.1. Intranet-Only Operation:
+    ChevronNexus Home (Pro) is an intranet server tool designed to run locally on your internal WiFi/LAN network. It does not 
+    route media through external Chevron Nexus cloud relays.
+
+8.2. User Sole Legal Liability for Hosted Content:
+    (a) You assume sole, complete, and unreserved legal liability for all audio-visual files, video libraries, music, documents, 
+        and data stored, transcoded, or streamed using ChevronNexus Home.
+    (b) You represent and warrant that you possess all necessary copyright licenses, ownership rights, or legal authorizations 
+        for any media you host or stream across your network.
+
+8.3. Total Indemnification Regarding Home Streaming:
+    You agree to defend, indemnify, and hold completely harmless Chevron Nexus from any copyright infringement claims, civil lawsuits, 
+    or statutory penalties arising from content hosted or distributed by your personal instance of ChevronNexus Home.
+
+========================================================================================================================
+9. AD-BLOCKING, NETWORK FILTERING, YOUTUBE AD SHIELD & THIRD-PARTY PLATFORM POLICIES
+========================================================================================================================
+9.1. Client-Side Software Tool Nature:
+    NeXusWeb incorporates local network filtering, request blocking, and script control utilities (`networkFilter.js`, `adblockEngine.js`). 
+    These modules operate purely on the local client machine, evaluating local regular expressions and CSS rules against DOM elements.
+
+9.2. User Volition & Independent Choice:
+    (a) The decision to activate, configure, or utilize ad-blocking, tracker filtering, or video advertisement suppression mechanisms 
+        (including toggles applicable to YouTube and other video streaming platforms) rests entirely and exclusively upon the independent 
+        volition and discretion of the end-user.
+    (b) NeXusWeb provides these features as neutral, general-purpose technical tools designed to enhance user browsing speed, bandwidth 
+        efficiency, and security against malicious malvertising scripts.
+
+9.3. Disclaimers Regarding Third-Party Terms:
+    (a) Third-party platforms (such as YouTube/Google) maintain their own independent Terms of Service governing viewer interactions. 
+        Chevron Nexus does not warrant that your use of client-side ad-blocking will be compatible with all third-party platform rules.
+    (b) You acknowledge that third-party websites may periodically modify scripts, implement anti-adblock challenges, or deny service 
+        to browsers utilizing client-side filters.
+    (c) Chevron Nexus disclaims all liability for any third-party account restrictions, access denials, or disputes between you and 
+        third-party content providers.
+
+========================================================================================================================
+10. VOLUNTARY DONATIONS, PAYMENT GATEWAYS & FINANCIAL TERMS ("BUY ME A COFFEE")
+========================================================================================================================
+10.1. Voluntary Financial Contributions:
+    (a) Users may choose to support the independent engineering and ongoing maintenance of NeXusWeb by submitting voluntary donations 
+        via QR codes displayed in the application or on official Company websites ("Buy Me a Coffee" / Sponsor contributions).
+    (b) All donations are 100% voluntary, gratuitous gifts. Donations do NOT constitute payment for commercial goods, do NOT establish 
+        a consumer purchase contract, and do NOT grant the donor any corporate shares, equity, voting rights, or proprietary interest 
+        in Chevron Nexus.
+
+10.2. Non-Refundable Nature:
+    ALL VOLUNTARY DONATIONS ARE FINAL, NON-REFUNDABLE, AND NON-CANCELLABLE UPON SUCCESSFUL SETTLEMENT THROUGH THE PAYMENT GATEWAY.
+
+10.3. Third-Party Payment Processor (Razorpay / UPI):
+    All financial transactions are handled exclusively by third-party payment gateways (principally Razorpay Software Private Limited). 
+    Chevron Nexus is not a banking institution. Any payment disputes or banking chargebacks must be addressed under the payment 
+    processor’s policies.
+
+========================================================================================================================
+11. THIRD-PARTY WEBSITES, EXTENSIONS & EXTERNAL API INTEGRATIONS
+========================================================================================================================
+11.1. Web Navigation & External Destinations:
+    NeXusWeb acts as an open portal to the World Wide Web. Chevron Nexus does NOT curate, endorse, supervise, censor, or guarantee 
+    the safety, accuracy, or legality of any external website, API, or service navigated to by the user.
+
+11.2. Browser Extensions & Add-ons:
+    (a) NeXusWeb supports standard web extensions installed from the Chrome Web Store or third-party repositories.
+    (b) Chevron Nexus does not develop or audit third-party extensions. Installation and execution of extensions are performed 
+        strictly at the user’s sole risk.
+
+========================================================================================================================
+12. COMPREHENSIVE DISCLAIMER OF WARRANTIES ("AS IS" & "AS AVAILABLE")
+========================================================================================================================
+12.1. Complete "AS IS" Disclaimer:
+    TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NEXUSWEB BROWSER, CHEVRONNEXUS SYNC, CHEVRONNEXUS HOME SERVER, AND ALL 
+    ASSOCIATED UTILITIES ARE PROVIDED STRICTLY ON AN "AS IS", "AS AVAILABLE", AND "WITH ALL FAULTS" BASIS.
+
+12.2. Disclaimer of Implied Warranties:
+    CHEVRON NEXUS SOFTWARE PRIVATE LIMITED EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR 
+    OTHERWISE, INCLUDING BUT NOT LIMITED TO:
+    (a) IMPLIED WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, AND FITNESS FOR A PARTICULAR PURPOSE;
+    (b) WARRANTIES OF NON-INFRINGEMENT OF THIRD-PARTY INTELLECTUAL PROPERTY RIGHTS;
+    (c) WARRANTIES THAT THE BROWSER WILL OPERATE UNINTERRUPTED, ERROR-FREE, BUG-FREE, OR COMPATIBLE WITH ALL HARDWARE ARCHITECTURES;
+    (d) WARRANTIES THAT NETWORK FILTERS OR AD SHIELDS WILL BLOCK 100% OF ADVERTISEMENTS OR TRACKING BEACONS;
+    (e) WARRANTIES AGAINST DATA CORRUPTION, OPERATING SYSTEM INCOMPATIBILITIES, OR SECURITY VULNERABILITIES.
+
+========================================================================================================================
+13. ABSOLUTE LIMITATION OF LIABILITY
+========================================================================================================================
+13.1. Exclusion of Consequential & Indirect Damages:
+    TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT SHALL CHEVRON NEXUS SOFTWARE PRIVATE LIMITED, ITS FOUNDERS, DIRECTORS, 
+    OFFICERS, EMPLOYEES, SOFTWARE ENGINEERS, OR CONTRACTORS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY:
+    (a) INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, PUNITIVE, OR EXEMPLARY DAMAGES;
+    (b) LOSS OF PROFITS, REVENUE, DATA, GOODWILL, CONTRACTS, OR BUSINESS OPPORTUNITIES;
+    (c) COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    (d) SYSTEM CRASHES, HARDWARE IMPAIRMENT, OR CORRUPTION OF FILES;
+    (e) DAMAGES RESULTING FROM THIRD-PARTY CYBER-ATTACKS, PHISHING WEBSITES, MALICIOUS EXTENSIONS, OR USER-HOSTED HOME MEDIA.
+
+13.2. Absolute Monetary Liability Cap:
+    IN ALL CIRCUMSTANCES, THE TOTAL AGGREGATE LIABILITY OF CHEVRON NEXUS FOR ALL CLAIMS, DISPUTES, LAWSUITS, AND CAUSES OF ACTION 
+    ARISING UNDER OR RELATING TO THIS AGREEMENT OR THE USE OF NEXUSWEB BROWSER SHALL BE STRICTLY LIMITED TO AND SHALL NOT EXCEED 
+    THE TOTAL SUM ACTUALLY PAID BY YOU TO CHEVRON NEXUS FOR THE SOFTWARE IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM (WHICH IS ZERO 
+    RUPEES / $0.00 FOR FREE DISTRIBUTIONS).
+
+========================================================================================================================
+14. COMPREHENSIVE INDEMNIFICATION COVENANT (HOLD HARMLESS)
+========================================================================================================================
+14.1. User Indemnification Obligations:
+    You agree to defend, indemnify, protect, and hold completely harmless Chevron Nexus Software Private Limited, its directors, 
+    officers, founders, employees, and authorized agents from and against any and all claims, liabilities, lawsuits, damages, 
+    losses, settlements, fines, penalties, costs, and expenses (including reasonable legal and attorneys' fees) arising out of or 
+    relating to:
+    (a) Your access to, installation of, or use or misuse of NeXusWeb Browser;
+    (b) Any breach or violation by you of any provision of these Terms & Conditions or the Privacy Policy;
+    (c) Any infringement or misappropriation of third-party copyrights, patents, trademarks, or proprietary rights caused by you;
+    (d) Any audio-visual media, files, or streams hosted, transcoded, or shared by you via ChevronNexus Home Server;
+    (e) Your violation of any applicable domestic or international cyber law, data protection statute, or third-party platform rules.
+
+========================================================================================================================
+15. SOFTWARE UPDATES, MODIFICATIONS & FORWARD-LOOKING COVENANTS
+========================================================================================================================
+15.1. Updates & Hotfixes:
+    Chevron Nexus may periodically release software updates, security hotfixes, or performance improvements via the Update Center. 
+    Updates are published via official GitHub release channels and applied only with the user's approval.
+
+15.2. Prior In-App Notice Covenant Regarding Future Telemetry:
+    Chevron Nexus solemnly covenants that should any future build introduce crash reporting or aggregate diagnostics:
+    (a) You will receive prominent, clear in-app notification prior to implementation;
+    (b) You will maintain absolute autonomy to opt out or deactivate any diagnostic data collection at any time.
+
+========================================================================================================================
+16. TERM, SUSPENSION, UNINSTALLATION & DATA PURGE PROTOCOLS
+========================================================================================================================
+16.1. Term:
+    This Agreement remains in full legal force and effect from the moment you first download or execute NeXusWeb until terminated 
+    by either party.
+
+16.2. Termination by You:
+    You may terminate this Agreement at any time by completely uninstalling NeXusWeb Browser and deleting all associated binary 
+    and configuration files.
+
+16.3. Termination by Company:
+    Chevron Nexus reserves the right to terminate or suspend your access to ChevronNexus Sync cloud services immediately and 
+    without notice if you violate any material term of this Agreement.
+
+========================================================================================================================
+17. GOVERNING LAW, DISPUTE RESOLUTION & MANDATORY BINDING ARBITRATION
+========================================================================================================================
+17.1. Substantive Governing Law:
+    This Agreement, its validity, interpretation, performance, and enforcement shall be governed by, construed, and enforced 
+    strictly in accordance with the substantive laws of the Republic of India, without giving effect to any principles of 
+    conflicts of law.
+
+17.2. Mandatory Binding Arbitration:
+    (a) Any dispute, controversy, claim, or difference arising out of or relating to this Agreement, including the formation, breach, 
+        termination, or invalidity thereof, shall be referred to and finally resolved by sole-arbitrator binding arbitration administered 
+        under the Arbitration and Conciliation Act, 1996 (India).
+    (b) The seat and legal place of arbitration shall be Mumbai, Maharashtra, India.
+    (c) The arbitration proceedings shall be conducted exclusively in the English language.
+    (d) The arbitral award shall be final, conclusive, and binding upon both parties, and judgment upon the award may be entered 
+        in any court of competent jurisdiction.
+
+17.3. Exclusive Court Jurisdiction:
+    Subject to the mandatory arbitration clause above, the competent courts located in Mumbai, Maharashtra, India, shall have 
+    exclusive territorial and subject-matter jurisdiction over any judicial proceedings arising out of this Agreement.
+
+17.4. Absolute Class Action Waiver:
+    YOU AND CHEVRON NEXUS AGREE THAT EACH PARTY MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY, AND NOT 
+    AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, REPRESENTATIVE, OR CONSOLIDATED LITIGATION PROCEEDING.
+
+========================================================================================================================
+18. SEVERABILITY, NON-WAIVER, FORCE MAJEURE & ENTIRE AGREEMENT
+========================================================================================================================
+18.1. Severability:
+    If any provision of these Terms is adjudicated to be illegal, invalid, or unenforceable by an arbitrator or court of competent 
+    jurisdiction, such provision shall be modified to the minimum extent necessary to make it enforceable, and all remaining 
+    provisions shall continue in full legal force and effect.
+
+18.2. Non-Waiver:
+    No failure or delay by Chevron Nexus in exercising any right, power, or remedy under this Agreement shall operate as a waiver 
+    thereof.
+
+18.3. Force Majeure:
+    Chevron Nexus shall not be liable for any failure or delay in performance resulting from causes beyond its reasonable control, 
+    including natural disasters, acts of war, terrorism, power outages, internet backbone failures, or governmental actions.
+
+18.4. Entire Agreement:
+    These Terms & Conditions, together with the NeXusWeb Privacy Policy, constitute the complete, exclusive, and unified legal 
+    agreement between you and Chevron Nexus concerning NeXusWeb Browser, superseding all prior oral or written representations.
+
+========================================================================================================================
+19. STATUTORY NOTICES & GRIEVANCE REDRESSAL OFFICER CONTACT
+========================================================================================================================
+19.1. Grievance Redressal & Legal Notice Mechanism:
+    In accordance with the Information Technology Act, 2000, and the Information Technology (Intermediary Guidelines and Digital 
+    Media Ethics Code) Rules, 2021, all official notices, legal communications, and grievances should be dispatched to:
+
+    Attention: Chief Legal Officer / Grievance Redressal Officer
+    Corporate Entity: Chevron Nexus Software Private Limited
+    Postal Address: 123 Innovation Park, Bandra East, Mumbai, Maharashtra, India – 400072
+    Electronic Mail: legal@chevronnexus.com / contact@chevronnexus.com
+    Official Portal: https://www.ChevronNexus.com
+
+========================================================================================================================
+                                     END OF TERMS & CONDITIONS
+                       © 2026 Chevron Nexus Software Private Limited. All Rights Reserved.
+========================================================================================================================
